@@ -1,20 +1,71 @@
-@font-face {font-family: "Oswald";
+@font-face {
+    font-family: "Oswald";
     src: url("/style/Oswald-Regular.ttf");
+    font-weight: 500
+}
+
+ @font-face {
+     font-family: "Oswald";
+    src: url("/style/Oswald-Light.ttf");
+    font-weight: 500
+}
+
+@font-face {
+    font-family: "Oswald";
+     src: url("/style/Oswald-Medium.ttf");
     font-weight: 500}
 
- @font-face {font-family: "Oswald";
-    src: url("/style/Oswald-Light.ttf");
-    font-weight: 500}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
-html {font-family: "oswald"}
-h1 {text-align: center;
-    font-family: "Roboto", sans-serif}
-h3 {color: rgb(35, 179, 35);
-    font-family: "oswald"}
-p {font-family: "oswald-light";
-    text-transform: lowercase}
-a {font-size: 12px;
-font-weight: bold;
-font-family: "Open Sans", sans-serif}
-img {width: 450px;
-    height: 250px}
+html {
+    font-family: "oswald"
+}
+#about-us {
+    color:brown ;
+    font-family: "oswald"
+        }
+#stuff {
+    color:coral
+}
+h1 {
+    text-align: center;
+    font-family: "Roboto", sans-serif
+}
+h3 {
+    color: rgb(35, 179, 35);
+    font-family: "oswald";
+    border-style: dotted;
+    border-width: 3px;
+    border-top: solid 3px red;
+    padding:2px;
+}
+.content {
+    text-align: justify;
+    font-weight: lighter;
+    font-family: "Oswald-Medium";
+    color: blue
+}
+p {
+    font-family: "oswald-light";
+    text-transform: lowercase
+}
+.img-div {
+    background-color: lightblue
+}
+a {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+img {
+    width: 30%;
+    height: 250px;
+    box-shadow: 4px 3px 9px black;
+    margin: 9.5%
+}
+.bold {
+    font-weight: bold
+}
+
+#img-1 {
+    visibility: visible
+}
